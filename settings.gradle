@@ -1,0 +1,2 @@
+rootProject.name='Booktopia'
+include ':app'
