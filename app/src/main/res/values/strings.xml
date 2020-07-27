@@ -11,4 +11,6 @@
     <string name="tv_string_book_author">Book Author</string>
     <string name="tv_string_year_of_release">Year Of Release</string>
     <string name="no_books_found">No Books Found</string>
+    <string name="String_menu_delete">Delete</string>
+    <string name="label_activity_add_book">New Book</string>
 </resources>

@@ -16,14 +16,6 @@ public class Book {
         this.releaseYear = releaseYear;
     }
 
-    public static Book[] books = {
-            new Book("Outlander","Diana Gabaldon",2012),
-            new Book("A Tale Of Two Cities","Charles Dickens",1859),
-            new Book("Mr. Mercedes","Stephen King",2015),
-            new Book("Outliers","Malcom Gladwell",2008),
-            new Book("Harry Potter and the Sorcerer's Stone","J.K.Rowling",1997),
-            new Book("The Hunger Games","Suzanne Collins",2008)
-    };
 
     public static void setBook(Book book) {
             sBookArrayList.add(book);

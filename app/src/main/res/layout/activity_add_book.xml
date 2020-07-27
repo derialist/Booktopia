@@ -75,6 +75,7 @@
         android:onClick="addBook"
         android:text="@string/button_add"
         android:textAllCaps="true"
+        android:enabled="false"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@android:color/white"
         android:textStyle="bold"

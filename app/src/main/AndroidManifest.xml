@@ -9,8 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AddBookActivity"></activity>
-        <activity android:name=".MainActivity"
+        <activity android:name=".BookDetail"></activity>
+        <activity
+            android:name=".AddBookActivity"
+            android:label="@string/label_activity_add_book"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
